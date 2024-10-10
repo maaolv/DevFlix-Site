@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Arial';
+}
+
+/*cabecalho*/
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+
+.combos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: center;
+    z-index: 2;
+}
+
+.subtitulo {
+    font-size: 28px;
+    text-align: center;
+}
+
+.botao1 {
+    background-color: rgb(0, 151, 72);
+    text-align: center;
+    width: 512px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+}
+
+.botao2 {
+    background-color: transparent;
+    text-align: center;
+    width: 512px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+}
+
+.texto {
+    text-align: center;
+    width: 512px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao1:hover, .botao2:hover {
+    opacity: 0.9;
+}
+
+.devs{
+    z-index: 1;
+}
+
+.profs{
+    margin-left: -140px;
+    z-index: 1;
+}
+
+.assistir{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(34, 38, 52);
+    width: 100%;
+    height: 800px;
+}
+
+.notebook {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text1 {
+    margin-top: 350px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.tcursos {
+    margin-top: 350px;
+    margin-bottom: 100px;
+}
+
+.imgcurso {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cursos { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(34, 38, 52);
+    width: 100%;
+    height: 800px;
+}
+
+.aparelhos {
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.tt2 {
+    margin-top: 300px;
+}
+
+.aparelhos2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.local {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.local img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contato {
+    background-color: #212933;
+    padding: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contato div {
+    margin: 10px 10px 10px 0;
+    padding: 8px
+}
+
+.faq form {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+.botaoenviar {
+    background-color: rgb(0, 151, 72);
+    text-align: center;
+    width: 512px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+}
+
+.botaoenviar:hover {
+    opacity: 0.9;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+label {
+    display: flex;
+    text-align: center;
+    color: white;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+input[type='text'],
+input[type='email'],
+textarea, select {
+    background-color: #212933;
+    width: 500px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+button, input[type='button'] {
+    width: 130px;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #212933;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.faq input, .faq textarea {
+    margin: 0 auto;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
